@@ -1,0 +1,73 @@
+<head>
+    <title>
+        Formulario
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Estilo025.css">
+</head>
+   
+<body>
+    
+    <div id="Formulario Contacto">
+        
+            <form  action="Recibido.html" method="post" target="_self"> 
+
+            <!-- CAMPO DE TEXTO -->
+            <div id="Encabezado"> 
+            <h1>Libreria Cristiana Jehova Jhire</h1></div>
+            <div id="Subtitulo"><h1>Contactanos</h1></div>
+            
+            
+            <h3> <label for="name">Nombres completos</label></h3>
+            <input id="name" name="name" type="text" placeholder="Escribe aqui" maxlength="40">
+            <h3><label for="email"> Correo Electronico</label></h3>
+            <input id="email" name="email" type="text" placeholder="leo@gmail.com">
+            <h3><label for="number">Numero de contacto </label> </h3>
+            <input id="number" name="number" type="text" placeholder="Te llamamos">
+            <!--TIPO DE DOCUMENTACION  -->
+            <h3>Tipo de Ducumentación</h3>
+            <div id="texto01">
+                <label for="tipo de documentos01" >DNI</label>
+                <input id="tipo de documentos01" name="tipo de documentos" type="radio" checked>
+                <h3> <label for="name">Indicanos tu DNI</label></h3>
+                <input id="name" name="name" type="text" placeholder="Escribe aqui" maxlength="8">
+        
+                <p></p>
+                <label for="tipo de documentos02" >PASAPORTE</label>
+                <input id="tipo de documentos02" name="tipo de documentos" type="radio" >
+                <h3> <label for="name">Indicanos tu PASAPORTE</label></h3>
+                <input id="name" name="name" type="text" placeholder="Escribe aqui" maxlength="15">
+            </div>
+            
+            
+            <!-- CAMPO DE OPCIONES -->
+            <div id="texto02">
+                <h3>Tipo de Consulta</h3>
+                <label for="tipo de consulta01" >Caracteristicas de los productos</label>
+                <input id="tipo de consulta01" name="tipo de consulta" type="radio" checked>
+                <p></p>
+                <label for="tipo de consulta02" >Desea adquirir un producto</label>
+                <input id="tipo de consulta02" name="tipo de consulta" type="radio" >
+                <p></p>
+                <label for="tipo de consulta02" >Otras consultas</label>
+                <input id="tipo de consulta02" name="tipo de consulta" type="radio" >
+                <h3> <label for="name">Indicanos tu consulta</label></h3>
+                <input id="name" name="name" type="text" placeholder="Escribe aqui" maxlength="700">
+
+            </div>
+            
+            
+            <!-- CAMPO DE BOTONES -->
+            <div id="boton">
+            <input type="submit" value="Envíe su mensaje">
+            </div>
+            
+    
+        </form>
+    </div>
+    <div id="pie">
+        <p>Sitio Web construido por Erwing Arnaldo Alvarado Ramirez-2023</p>
+
+    </div>
+   
+</body>
